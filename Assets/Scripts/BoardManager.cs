@@ -25,7 +25,7 @@ public class BoardManager : MonoBehaviour
 
         if (verticalInput != 0)
         {
-            transform.RotateAround(meshCollider.bounds.center, Vector3.left, verticalInput * speed * Time.deltaTime);
+            transform.RotateAround(meshCollider.bounds.center, Vector3.right, verticalInput * speed * Time.deltaTime);
         }
     }
 }
