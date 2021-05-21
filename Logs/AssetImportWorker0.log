@@ -385,3 +385,49 @@ System memory in use after: 133.1 MB.
 Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 1956.
 Total: 5.780764 ms (FindLiveObjects: 0.435498 ms CreateObjectMapping: 0.134133 ms MarkObjects: 2.506762 ms  DeleteObjects: 2.683283 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000652 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.270 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1500 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.5 MB.
+System memory in use after: 133.3 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 1959.
+Total: 4.235022 ms (FindLiveObjects: 0.221824 ms CreateObjectMapping: 0.058366 ms MarkObjects: 1.814100 ms  DeleteObjects: 2.139783 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 328.104675 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd05acfed6d86f6e1bc51fc0746db77b1') in 0.007053 seconds
+  Import took 0.010140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.994104 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(5feb7c9bf9b4349c99b6f439632dbfdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(5feb7c9bf9b4349c99b6f439632dbfdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b56961a80b6c651ee8a8b9c92aba83ce') in 0.006279 seconds
+  Import took 0.010025 seconds .
+
